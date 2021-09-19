@@ -1,0 +1,33 @@
+card-img{
+    height: 50px;
+    
+
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 100px;
+max-height: fit-content;  }
+  .abt-main{
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    transform: translate(-2%, -50%);
+    color: #000000;
+font-style: oblique;
+
+h1{
+  color: aqua;
+  font-size: 100px;
+  padding-bottom: 100px;
+}
+
+p{
+  padding: 10px;
+  max-width: 1000px;
+  font-size: large;
+  font-weight: 1000;
+}
+  }  

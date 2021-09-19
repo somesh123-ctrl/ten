@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    overflow:hidden;
+    padding-top: 5%;
+    animation: slideIn 1.5s ease-in-out forwards;
+    height: max-content;
+    .card {
+      background-color: rgb(212, 84, 84);
+      background-color: rgb(109, 238, 148);
+      border-radius: 10%;
+      -webkit-tap-highlight-color: transparent;
+      transform: scale(0.98);
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 310px;
+  height: 400px;
+      cursor: pointer;
+      .img {
+        width: 310px;
+        height: 210px;
+        border-radius: 10%;
+      }
+    }
+}  
